@@ -2,16 +2,10 @@
 # 🏦 Predictive Customer Analytics for Banking Campaigns
 
 > **Predicting Customer Subscription Behavior Using Machine Learning to Improve Marketing Campaign Effectiveness and Customer Segmentation**
-
 [![R](https://img.shields.io/badge/Language-R-276DC3?style=flat&logo=r&logoColor=white)](https://www.r-project.org/)
-
-[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Classification%20%26%20Regression-brightgreen?style=flat)
-
 [![Quarto](https://img.shields.io/badge/Report-Quarto-4A90D9?style=flat)](https://quarto.org/)
+[![ML Models](https://img.shields.io/badge/Models-Regression%20%7C%20Classification-brightgreen?style=flat)]()
 
-[![Status](https://img.shields.io/badge/Project-Completed-success?style=flat)
-
-[![License](https://img.shields.io/badge/License-MIT-blue?style=flat)
 
 ---
 
