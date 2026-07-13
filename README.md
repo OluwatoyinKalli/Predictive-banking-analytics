@@ -1,7 +1,8 @@
 
-# 🏦 Predictive Customer Analytics for Banking Campaigns
+# Predictive Customer Analytics for Banking Campaigns
 
 > **Predicting Customer Subscription Behavior Using Machine Learning to Improve Marketing Campaign Effectiveness and Customer Segmentation**
+
 [![R](https://img.shields.io/badge/Language-R-276DC3?style=flat&logo=r&logoColor=white)](https://www.r-project.org/)
 [![Quarto](https://img.shields.io/badge/Report-Quarto-4A90D9?style=flat)](https://quarto.org/)
 [![ML Models](https://img.shields.io/badge/Models-Regression%20%7C%20Classification-brightgreen?style=flat)]()
@@ -9,7 +10,7 @@
 
 ---
 
-# 📌 Executive Summary
+# Executive Summary
 
 This project demonstrates the development of an end-to-end predictive analytics solution that helps financial institutions identify customers most likely to subscribe to term deposits while also understanding the factors influencing customer account balances.
 
@@ -17,7 +18,7 @@ Using statistical modeling and machine learning techniques, the project provides
 
 ---
 
-# 🎯 Business Problem
+# Business Problem
 
 Banks invest heavily in direct marketing campaigns, yet broad customer targeting often results in:
 
@@ -33,18 +34,18 @@ This project addresses two critical business questions:
 
 ---
 
-# 📊 Project Highlights
+# Project Highlights
 
-- 📁 Dataset: 45,211 banking customers
-- 📈 16 demographic and campaign variables
-- 🤖 Six predictive models developed
-- 🎯 Approximately 92% classification accuracy
-- 📊 Near-perfect ROC performance
-- 💼 Actionable recommendations for marketing optimization
+- Dataset: 45,211 banking customers
+- 16 demographic and campaign variables
+- Six predictive models developed
+- Approximately 92% classification accuracy
+- Near-perfect ROC performance
+- Actionable recommendations for marketing optimization
 
 ---
 
-# 🛠️ Solution Overview
+# Solution Overview
 
 The solution consists of two complementary analytical tracks.
 
@@ -62,7 +63,7 @@ Estimate customer account balances using demographic and campaign information.
 
 **Best Performing Model**
 
-⭐ Generalized Additive Model (GAM)
+- Generalized Additive Model (GAM)
 
 ---
 
@@ -80,13 +81,13 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 **Best Performing Models**
 
-⭐ Tuned Random Forest
+- Tuned Random Forest
 
-⭐ Tuned Gradient Boosted Trees
+- Tuned Gradient Boosted Trees
 
 ---
 
-# 📈 Key Results
+# Key Results
 
 - Achieved approximately 92% classification accuracy.
 - Contact duration was the strongest predictor of subscription.
@@ -96,25 +97,25 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 ---
 
-# 💡 Business Insights
+# Business Insights
 
 (Use your six Business Insights here.)
 
 ---
 
-# 🚀 Business Recommendations
+# Business Recommendations
 
 (Use your six Business Recommendations here.)
 
 ---
 
-# 📊 Business Impact
+# Business Impact
 
 (Use your Business Impact table here.)
 
 ---
 
-# 🖼️ Model Visualizations
+# Model Visualizations
 
 Include only the most important visuals.
 
@@ -127,7 +128,7 @@ Include only the most important visuals.
 
 ---
 
-# 🛠️ Technical Skills Demonstrated
+# Technical Skills Demonstrated
 
 ## Machine Learning
 
@@ -180,7 +181,7 @@ Include only the most important visuals.
 
 ---
 
-# 📂 Repository Structure
+# Repository Structure
 
 ```text
 Predictive-Banking-Analytics/
@@ -208,13 +209,13 @@ Predictive-Banking-Analytics/
 
 ---
 
-# ⚠️ Limitations
+# Limitations
 
 (Keep your existing Limitations section.)
 
 ---
 
-# 🎯 Conclusion
+# Conclusion
 
 (Keep your existing Conclusion section.)
 
