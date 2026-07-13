@@ -97,21 +97,97 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 ---
 
-# Business Insights
+#  Business Insights
 
-(Use your six Business Insights here.)
+## Regression Analysis: Customer Account Balance
+
+*1. Customer Financial Value Increases Non-Linearly with Age*
+Generalized Additive Models (GAMs) revealed that account balances increase non-linearly with age. Traditional linear models underestimate financial value among older customers, making age-based segmentation a more effective strategy.
+
+*2. Customer Engagement Reflects Financial Value*
+Longer customer interactions were associated with higher account balances, suggesting that engagement quality is an indicator of customer financial value.
+
+*3. Additional Financial Variables Are Needed*
+Although GAM outperformed the other regression models, all regression models produced relatively low explanatory power (R²). This indicates that variables such as income, credit score, savings behavior, and transaction history would significantly improve balance prediction.
+
+## Classification Analysis: Term Deposit Subscription
+
+*4. Customer Engagement Drives Subscription Success*
+Call duration was the strongest predictor of term deposit subscription. Customers who remained engaged in longer conversations were significantly more likely to subscribe.
+
+*5. Excessive Customer Contact Reduces Conversion*
+Higher campaign frequency negatively affected subscription rates. Customers contacted repeatedly during the same campaign were less likely to convert, suggesting diminishing returns from aggressive outreach.
+
+*6. Previous Campaign Success Predicts Future Conversion*
+Customers who responded positively to previous campaigns were substantially more likely to subscribe again, making historical campaign performance an effective indicator for prioritizing future marketing efforts.
+
+*7. Ensemble Machine Learning Models Delivered Superior Performance*
+Tuned Random Forest and Gradient Boosted Trees achieved approximately 92% classification accuracy, outperforming traditional statistical approaches and providing reliable prediction of customer subscription behavior.
 
 ---
 
-# Business Recommendations
+#  Strategic Business Recommendations
 
-(Use your six Business Recommendations here.)
+## Recommendations from the Regression Analysis
+
+*1. Develop an Age-Based Customer Segmentation Strategy*
+Replace traditional demographic segmentation with age-based segments that reflect the non-linear relationship between age and account balance identified by the Generalized Additive Model (GAM).
+
+*Expected Impact*
+More accurate identification of high-value customer segments and improved targeting of premium financial products.
+
+*2. Incorporate Additional Financial Variables*
+Enhance future predictive models by integrating variables such as income, credit score, savings behavior, and transaction history.
+
+*Expected Impact*
+Improved prediction accuracy and more reliable identification of financially valuable customers.
+
+*3. Prioritize Customers with Higher Financial Engagement*
+Use customer engagement indicators, such as longer interaction duration, alongside demographic information to better identify customers with greater financial value.
+
+*Expected Impact*
+More effective customer profiling and improved prioritization of relationship management efforts.
+
+## Recommendations from the Classification Analysis
+
+*4. Prioritize Call Quality Over Call Volume*
+Train campaign teams to focus on meaningful, high-quality customer conversations rather than maximizing the number of outbound calls.
+
+*Expected Impact*
+Higher subscription rates and improved customer engagement.
+
+*5. Implement Contact Frequency Limits*
+Limit the number of campaign contacts per customer to reduce diminishing returns and customer fatigue.
+
+*Expected Impact*
+Lower marketing costs and improved campaign conversion rates.
+
+*6. Prioritize Previously Responsive Customers*
+Develop a re-engagement strategy targeting customers who responded positively to previous campaigns.
+
+*Expected Impact*
+Higher return on marketing investment through improved customer targeting.
+
+
+*7. Deploy the Best-Performing Machine Learning Model*
+Integrate the Tuned Random Forest or Gradient Boosted Trees model into campaign planning to score customers based on their probability of subscribing.
+
+*Expected Impact*
+More efficient allocation of marketing resources and higher campaign effectiveness.
 
 ---
 
 # Business Impact
 
-(Use your Business Impact table here.)
+
+| Recommendation | Expected Business Impact |
+|----------------|--------------------------|
+| Deploy the classification model to pre-score campaign lists | Improves marketing efficiency by identifying high-probability subscribers before campaign launch, increasing conversion rates while reducing wasted outreach. |
+| Implement contact frequency limits | Lowers marketing costs, reduces customer fatigue, and improves campaign effectiveness through more targeted engagement. |
+| Prioritize previously responsive customers | Increases return on marketing investment by focusing resources on customers with a proven history of positive campaign responses. |
+| Shift from call volume to call quality | Improves customer engagement and increases the likelihood of successful term deposit subscriptions. |
+| Implement age-based customer segmentation | Enhances identification of high-value customer segments, supporting more personalized financial product offerings and relationship management. |
+| Enrich future models with additional financial variables | Strengthens predictive accuracy for customer valuation, enabling better long-term customer segmentation and strategic planning. |
 
 ---
 
