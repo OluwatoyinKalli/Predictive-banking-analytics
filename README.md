@@ -238,27 +238,16 @@ Demonstrates strong model discrimination between subscribers and non-subscribers
 
 ### Model Comparison
 
-*(Insert image)*
+| Model | Best Use |
+|--------|----------|
+| Multiple Linear Regression | Baseline Regression |
+| Lasso Regression | Feature Selection |
+| Generalized Additive Model | ⭐ Best Regression Model |
+| Logistic Regression | Baseline Classification |
+| Random Forest | High Classification Performance |
+| Gradient Boosted Trees | ⭐ Best Overall Classification Model |
 
 Compares regression and classification models to support selection of the best-performing approaches for deployment.
-
-
-
-
-
-
-
-
-
-
-Include only the most important visuals.
-
-- Correlation Heatmap
-- Subscription Distribution
-- Variable Importance (Random Forest)
-- Variable Importance (Gradient Boosting)
-- ROC Curve
-- Model Comparison
 
 ---
 
@@ -345,13 +334,19 @@ Predictive-Banking-Analytics/
 
 # Limitations
 
-(Keep your existing Limitations section.)
+All three regression models produced very low R² values, suggesting the dataset lacks key financial predictors necessary for accurate balance prediction
+The dataset originates from a Portuguese bank (2008–2013) and may not generalize to other markets or time periods, particularly given the 2008 financial crisis context
+The large "unknown" category in poutcome and job may introduce noise into classification predictions
+Class imbalance in y required SMOTE intervention — results may differ on naturally balanced or differently distributed datasets
 
 ---
 
 # Conclusion
 
-(Keep your existing Conclusion section.)
+This project successfully addressed two core business challenges through a dual analytical framework. For account balance prediction, GAMs achieved the best performance (RMSE: 2,998.206, R²: 0.015), confirming non-linear relationships between predictors and balance — with age emerging as the dominant factor. For term deposit subscription classification, both Tuned Random Forest and Tuned Gradient Boosted Models achieved 92% accuracy with an AUC near 1.0, identifying contact duration and campaign frequency as the strongest drivers of subscription likelihood.
+
+While the regression models revealed meaningful patterns, the low R² values suggest that additional financial variables would be needed to build a production-ready balance predictor. The classification models, however, demonstrated strong real-world applicability — providing the bank with a reliable tool to identify and prioritize likely subscribers before campaign outreach begins.
+
 
 
 
