@@ -304,34 +304,6 @@ Compares regression and classification models to support selection of the best-p
 
 ---
 
-# Repository Structure
-
-```text
-Predictive-Banking-Analytics/
-
-├── README.md
-
-├── data/
-│   └── bank_marketing.csv
-
-├── report/
-│   └── Bank_Marketing_Analysis.qmd
-
-├── images/
-│   ├── correlation_heatmap.png
-│   ├── subscription_distribution.png
-│   ├── roc_curve.png
-│   ├── job_distribution.png
-│   ├── vip_random_forest.png
-│   └── vip_gradient_boosted.png
-
-├── models/
-
-├── scripts/
-```
-
----
-
 # Limitations
 
 All three regression models produced very low R² values, suggesting the dataset lacks key financial predictors necessary for accurate balance prediction
@@ -348,7 +320,34 @@ This project successfully addressed two core business challenges through a dual 
 While the regression models revealed meaningful patterns, the low R² values suggest that additional financial variables would be needed to build a production-ready balance predictor. The classification models, however, demonstrated strong real-world applicability — providing the bank with a reliable tool to identify and prioritize likely subscribers before campaign outreach begins.
 
 
+<details>
 
+<summary>📊 Dataset Description (Click to Expand)</summary>
+
+### Source
+
+UCI Machine Learning Repository
+
+### Records
+
+45,211 customers
+
+### Variables
+
+17 predictor variables
+
+### Target Variable
+
+Term Deposit Subscription (Yes/No)
+
+### Data Preparation
+
+- Missing value assessment
+- Duplicate check
+- Feature engineering
+- Data partitioning
+
+</details>
 
 
 
