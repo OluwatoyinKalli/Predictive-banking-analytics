@@ -349,7 +349,53 @@ Term Deposit Subscription (Yes/No)
 
 </details>
 
+<details>
 
+<summary>📈 Regression Modeling Details (Click to Expand)</summary>
+
+### Models Evaluated
+
+- Multiple Linear Regression
+- Lasso Regression
+- Generalized Additive Model (GAM)
+
+### Evaluation Metrics
+
+| Model | RMSE | MAE | R² |
+|-------|-----:|----:|---:|
+| MLR | ... | ... | ... |
+| Lasso | ... | ... | ... |
+| GAM | ... | ... | ... |
+
+### Summary
+
+The Generalized Additive Model produced the strongest regression performance by capturing non-linear relationships between customer age and account balance.
+
+</details>
+
+<details>
+
+<summary>🤖 Classification Modeling Details (Click to Expand)</summary>
+
+### Models Evaluated
+
+- Logistic Regression
+- Random Forest
+- Gradient Boosted Trees
+
+### Evaluation Metrics
+
+| Model | Accuracy | Precision | Recall | F1 | ROC AUC |
+|--------|---------:|----------:|-------:|---:|--------:|
+| Logistic Regression | ... | ... | ... | ... | ... |
+| Random Forest | ... | ... | ... | ... | ... |
+| Gradient Boosting | ... | ... | ... | ... | ... |
+
+### Summary
+
+Random Forest and Gradient Boosted Trees achieved the strongest predictive performance and were selected as the preferred models.
+
+</details>
 
 
 
