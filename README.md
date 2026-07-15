@@ -319,37 +319,51 @@ This project successfully addressed two core business challenges through a dual 
 
 While the regression models revealed meaningful patterns, the low R² values suggest that additional financial variables would be needed to build a production-ready balance predictor. The classification models, however, demonstrated strong real-world applicability — providing the bank with a reliable tool to identify and prioritize likely subscribers before campaign outreach begins.
 
-
 <details>
 
 <summary>📊 Dataset Description (Click to Expand)</summary>
 
-### Source
+## 📂 Data Source
 
-UCI Machine Learning Repository
+**Dataset:** Bank Marketing Dataset
 
-### Records
+**Source:** UCI Machine Learning Repository
 
-45,211 customers
+**Official Dataset:**  
+https://archive.ics.uci.edu/dataset/222/bank+marketing
 
-### Variables
+### Dataset Overview
 
-17 predictor variables
+The dataset contains information collected from direct marketing campaigns conducted by a Portuguese banking institution. The objective is to predict whether a customer will subscribe to a term deposit based on demographic characteristics and previous marketing interactions.
 
-### Target Variable
+### Dataset Characteristics
 
-Term Deposit Subscription (Yes/No)
+| Attribute | Value |
+|-----------|--------|
+| Records | 45,211 |
+| Predictor Variables | 16 |
+| Target Variable | `y` (Term Deposit Subscription) |
+| Missing Values | None |
+| Response Variable | Binary Classification |
+
+### Features Used
+
+- Customer Demographics
+- Employment Information
+- Financial Attributes
+- Previous Campaign Outcomes
+- Current Campaign Information
 
 ### Data Preparation
 
-- Missing value assessment
-- Duplicate check
-- Feature engineering
-- Data partitioning
+- Checked for missing values
+- Verified duplicate observations
+- Converted categorical variables to factors
+- Created training and testing datasets
+- Applied SMOTE to address class imbalance
+- Standardized data preprocessing using the **recipes** package
 
 </details>
-
-<details>
 
 <summary>📈 Regression Modeling Details (Click to Expand)</summary>
 
@@ -398,25 +412,6 @@ Random Forest and Gradient Boosted Trees achieved the strongest predictive perfo
 </details>
 
 
-
-## 📂 Data Source
-
-**Dataset:** Bank Marketing Dataset
-
-**Source:** UCI Machine Learning Repository
-
-**Description:**  
-This dataset contains information from direct marketing campaigns conducted by a Portuguese banking institution. The objective is to predict whether a customer will subscribe to a term deposit based on demographic characteristics and previous marketing interactions.
-
-**Dataset Size**
-
-- **Records:** 45,211
-- **Features:** 17
-- **Target Variable:** `y` (Term Deposit Subscription)
-
-**Official Dataset**
-
-:contentReference[oaicite:0]{index=0}
 
 
 
