@@ -319,51 +319,36 @@ This project successfully addressed two core business challenges through a dual 
 
 While the regression models revealed meaningful patterns, the low R² values suggest that additional financial variables would be needed to build a production-ready balance predictor. The classification models, however, demonstrated strong real-world applicability — providing the bank with a reliable tool to identify and prioritize likely subscribers before campaign outreach begins.
 
+
 <details>
 
 <summary>📊 Dataset Description (Click to Expand)</summary>
 
-## 📂 Data Source
+### Source
 
-**Dataset:** Bank Marketing Dataset
+UCI Machine Learning Repository
 
-**Source:** UCI Machine Learning Repository
+### Records
 
-**Official Dataset:**  
-https://archive.ics.uci.edu/dataset/222/bank+marketing
+45,211 customers
 
-### Dataset Overview
+### Variables
 
-The dataset contains information collected from direct marketing campaigns conducted by a Portuguese banking institution. The objective is to predict whether a customer will subscribe to a term deposit based on demographic characteristics and previous marketing interactions.
+17 predictor variables
 
-### Dataset Characteristics
+### Target Variable
 
-| Attribute | Value |
-|-----------|--------|
-| Records | 45,211 |
-| Predictor Variables | 16 |
-| Target Variable | `y` (Term Deposit Subscription) |
-| Missing Values | None |
-| Response Variable | Binary Classification |
-
-### Features Used
-
-- Customer Demographics
-- Employment Information
-- Financial Attributes
-- Previous Campaign Outcomes
-- Current Campaign Information
+Term Deposit Subscription (Yes/No)
 
 ### Data Preparation
 
-- Checked for missing values
-- Verified duplicate observations
-- Converted categorical variables to factors
-- Created training and testing datasets
-- Applied SMOTE to address class imbalance
-- Standardized data preprocessing using the **recipes** package
+- Missing value assessment
+- Duplicate check
+- Feature engineering
+- Data partitioning
 
 </details>
+
 
 <summary>📈 Regression Modeling Details (Click to Expand)</summary>
 
