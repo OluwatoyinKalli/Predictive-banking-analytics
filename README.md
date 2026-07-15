@@ -399,7 +399,24 @@ Random Forest and Gradient Boosted Trees achieved the strongest predictive perfo
 
 
 
+## 📂 Data Source
 
+**Dataset:** Bank Marketing Dataset
+
+**Source:** UCI Machine Learning Repository
+
+**Description:**  
+This dataset contains information from direct marketing campaigns conducted by a Portuguese banking institution. The objective is to predict whether a customer will subscribe to a term deposit based on demographic characteristics and previous marketing interactions.
+
+**Dataset Size**
+
+- **Records:** 45,211
+- **Features:** 17
+- **Target Variable:** `y` (Term Deposit Subscription)
+
+**Official Dataset**
+
+:contentReference[oaicite:0]{index=0}
 
 
 
