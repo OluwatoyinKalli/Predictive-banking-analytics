@@ -420,7 +420,6 @@ Random Forest and Gradient Boosted Trees achieved the strongest predictive perfo
 
 Compares regression and classification models to support selection of the best-performing approaches for deployment.
 
-<details>
 
 
 
