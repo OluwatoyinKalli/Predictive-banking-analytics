@@ -262,7 +262,7 @@ While the regression models revealed meaningful patterns, the low R² values sug
 
 
 <details>
-
+# 📎 Technical Appendix
 <summary>📊 Dataset Description (Click to Expand)</summary>
 
 ## 📂 Data Source
@@ -373,7 +373,7 @@ Compares regression and classification models to support selection of the best-p
 
 <details>
 
-<summary>📈 Regression Modeling Details (Click to Expand)</summary>
+<summary>📈 Regression Analysis Details (Click to Expand)</summary>
 
 ### Models Evaluated
 
@@ -381,7 +381,7 @@ Compares regression and classification models to support selection of the best-p
 - Lasso Regression
 - Generalized Additive Model (GAM)
 
-### Evaluation Metrics
+### Model Performance
 
 | Model | RMSE | R² | MAE | Key Strength |
 |-------|-----:|---:|----:|--------------|
@@ -390,7 +390,7 @@ Compares regression and classification models to support selection of the best-p
 | Generalized Additive Model (GAM) ⭐ | **2,998.206** | **0.015** | **1,499.378** | Captures non-linear relationships between predictors and account balance |
 
 
-### Summary
+### Key Takeaway
 
 The Generalized Additive Model produced the strongest regression performance by capturing non-linear relationships between customer age and account balance.
 
@@ -398,7 +398,7 @@ The Generalized Additive Model produced the strongest regression performance by 
 
 <details>
 
-<summary>🤖 Classification Modeling Details (Click to Expand)</summary>
+<summary>🤖 Classification Analysis Details (Click to Expand)</summary>
 
 ### Models Evaluated
 
@@ -406,7 +406,7 @@ The Generalized Additive Model produced the strongest regression performance by 
 - Random Forest
 - Gradient Boosted Trees
 
-### Evaluation Metrics
+### Model Performance
 
 ## Model Performance Comparison
 
@@ -416,7 +416,7 @@ The Generalized Additive Model produced the strongest regression performance by 
 | Random Forest | 0.918 | 0.865 | 0.944 | 0.886 | 0.976 |
 | Gradient Boosting | 0.92 | 0.87 | 0.94 | 0.89 | ≈0.98 |
 
-### Summary
+### Key Takeaway
 
 Random Forest and Gradient Boosted Trees achieved the strongest predictive performance and were selected as the preferred models.
 
