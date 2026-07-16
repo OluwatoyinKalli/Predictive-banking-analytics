@@ -189,7 +189,6 @@ Predict whether a customer is likely to subscribe to a term deposit.
 | Implement age-based customer segmentation | Enhances identification of high-value customer segments, supporting more personalized financial product offerings and relationship management. |
 | Enrich future models with additional financial variables | Strengthens predictive accuracy for customer valuation, enabling better long-term customer segmentation and strategic planning. |
 
-
 ---
 
 # Technical Skills Demonstrated
@@ -354,7 +353,7 @@ Confirms the importance of customer engagement and campaign-related variables wh
 
 Demonstrates strong model discrimination between subscribers and non-subscribers, indicating excellent predictive performance.
 
-<details>
+</details>
   
 <details>
 
@@ -407,6 +406,8 @@ Random Forest and Gradient Boosted Trees achieved the strongest predictive perfo
 
 </details>
 
+<details>
+
 ### Model Comparison
 
 | Model | Best Use |
@@ -420,7 +421,7 @@ Random Forest and Gradient Boosted Trees achieved the strongest predictive perfo
 
 Compares regression and classification models to support selection of the best-performing approaches for deployment.
 
-
+</details>
 
 
 
