@@ -189,65 +189,6 @@ Predict whether a customer is likely to subscribe to a term deposit.
 | Implement age-based customer segmentation | Enhances identification of high-value customer segments, supporting more personalized financial product offerings and relationship management. |
 | Enrich future models with additional financial variables | Strengthens predictive accuracy for customer valuation, enabling better long-term customer segmentation and strategic planning. |
 
----
-
-# Model Visualizations
-
-The figures below summarize the key relationships identified during exploratory analysis, model development, and performance evaluation.
-
-### Correlation Heatmap
-
-![Correlation Heatmap](figures/correlation_heatmap.png)
-
-
-Shows the strength of relationships among key numerical variables and highlights potential multicollinearity.
-
----
-
-### Subscription Distribution
-
-![Subscription Distribution](figures/03_subscription_distribution.png)
-
-Illustrates the class imbalance between customers who subscribed and those who did not, motivating the use of SMOTE during model training.
-
----
-
-### Random Forest Variable Importance
-
-![Variable Importance — Random Forest](figures/05_vip_randomforest.png)
-
-Identifies the variables contributing most to subscription prediction, with call duration emerging as the dominant predictor.
-
----
-
-### Gradient Boosting Variable Importance
-
-![Variable Importance — Gradient Boosted Model](figures/08_vip_gradientboosted.png)
-
-Confirms the importance of customer engagement and campaign-related variables while validating feature consistency across models.
-
----
-
-### ROC Curve
-
-![ROC Curves — All Classification Models](figures/07_roc_curves.png)
-
-Demonstrates strong model discrimination between subscribers and non-subscribers, indicating excellent predictive performance.
-
----
-
-### Model Comparison
-
-| Model | Best Use |
-|--------|----------|
-| Multiple Linear Regression | Baseline Regression |
-| Lasso Regression | Feature Selection |
-| Generalized Additive Model | ⭐ Best Regression Model |
-| Logistic Regression | Baseline Classification |
-| Random Forest | High Classification Performance |
-| Gradient Boosted Trees | ⭐ Best Overall Classification Model |
-
-Compares regression and classification models to support selection of the best-performing approaches for deployment.
 
 ---
 
@@ -365,6 +306,70 @@ The dataset contains information collected from direct marketing campaigns condu
 - Standardized data preprocessing using the **recipes** package
 
 </details>
+
+<details>
+
+<summary>🖼️ Model Visualizations (Click to Expand)</summary>
+
+The figures below summarize the key relationships identified during exploratory analysis, model development, and performance evaluation.
+# Model Visualizations
+
+
+### Correlation Heatmap
+
+![Correlation Heatmap](figures/correlation_heatmap.png)
+
+
+Shows the strength of relationships among key numerical variables and highlights potential multicollinearity.
+
+---
+
+### Subscription Distribution
+
+![Subscription Distribution](figures/03_subscription_distribution.png)
+
+Illustrates the class imbalance between customers who subscribed and those who did not, motivating the use of SMOTE during model training.
+
+---
+
+### Random Forest Variable Importance
+
+![Variable Importance — Random Forest](figures/05_vip_randomforest.png)
+
+Identifies the variables contributing most to subscription prediction, with call duration emerging as the dominant predictor.
+
+---
+
+### Gradient Boosting Variable Importance
+
+![Variable Importance — Gradient Boosted Model](figures/08_vip_gradientboosted.png)
+
+Confirms the importance of customer engagement and campaign-related variables while validating feature consistency across models.
+
+---
+
+### ROC Curve
+
+![ROC Curves — All Classification Models](figures/07_roc_curves.png)
+
+Demonstrates strong model discrimination between subscribers and non-subscribers, indicating excellent predictive performance.
+
+---
+
+### Model Comparison
+
+| Model | Best Use |
+|--------|----------|
+| Multiple Linear Regression | Baseline Regression |
+| Lasso Regression | Feature Selection |
+| Generalized Additive Model | ⭐ Best Regression Model |
+| Logistic Regression | Baseline Classification |
+| Random Forest | High Classification Performance |
+| Gradient Boosted Trees | ⭐ Best Overall Classification Model |
+
+Compares regression and classification models to support selection of the best-performing approaches for deployment.
+
+<details>
 
 
 <details>
