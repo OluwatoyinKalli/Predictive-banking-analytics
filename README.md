@@ -260,9 +260,9 @@ This project successfully addressed two core business challenges through a dual 
 
 While the regression models revealed meaningful patterns, the low R² values suggest that additional financial variables would be needed to build a production-ready balance predictor. The classification models, however, demonstrated strong real-world applicability — providing the bank with a reliable tool to identify and prioritize likely subscribers before campaign outreach begins.
 
-
-<details>
 # 📎 Technical Appendix
+<details>
+
 <summary>📊 Dataset Description (Click to Expand)</summary>
 
 ## 📂 Data Source
@@ -357,20 +357,6 @@ Demonstrates strong model discrimination between subscribers and non-subscribers
 ---
 <details>
   
-### Model Comparison
-
-| Model | Best Use |
-|--------|----------|
-| Multiple Linear Regression | Baseline Regression |
-| Lasso Regression | Feature Selection |
-| Generalized Additive Model | ⭐ Best Regression Model |
-| Logistic Regression | Baseline Classification |
-| Random Forest | High Classification Performance |
-| Gradient Boosted Trees | ⭐ Best Overall Classification Model |
-
-Compares regression and classification models to support selection of the best-performing approaches for deployment.
-
-<details>
 
 <details>
 
@@ -423,6 +409,20 @@ Random Forest and Gradient Boosted Trees achieved the strongest predictive perfo
 
 </details>
 
+### Model Comparison
+
+| Model | Best Use |
+|--------|----------|
+| Multiple Linear Regression | Baseline Regression |
+| Lasso Regression | Feature Selection |
+| Generalized Additive Model | ⭐ Best Regression Model |
+| Logistic Regression | Baseline Classification |
+| Random Forest | High Classification Performance |
+| Gradient Boosted Trees | ⭐ Best Overall Classification Model |
+
+Compares regression and classification models to support selection of the best-performing approaches for deployment.
+
+<details>
 
 
 
