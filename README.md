@@ -355,7 +355,8 @@ Confirms the importance of customer engagement and campaign-related variables wh
 Demonstrates strong model discrimination between subscribers and non-subscribers, indicating excellent predictive performance.
 
 ---
-
+<details>
+  
 ### Model Comparison
 
 | Model | Best Use |
