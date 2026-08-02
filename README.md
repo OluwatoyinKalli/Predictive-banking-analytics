@@ -12,7 +12,7 @@
 
 # Executive Summary
 
-This project demonstrates the development of an end-to-end predictive analytics solution that helps financial institutions identify customers most likely to subscribe to term deposits while also understanding the factors influencing customer account balances.
+This project demonstrates the development of a predictive analytics solution that helps financial institutions identify customers most likely to subscribe to term deposits while also understanding the factors influencing customer account balances.
 
 Using statistical modeling and machine learning techniques, the project provides actionable insights that improve customer segmentation, optimize marketing resource allocation, and support data-driven decision-making.
 
@@ -49,7 +49,7 @@ This project addresses two critical business questions:
 
 The solution consists of two complementary analytical tracks.
 
-## Track 1 — Predicting Customer Account Balance
+## Track 1: Predicting Customer Account Balance
 
 **Objective**
 
@@ -67,7 +67,7 @@ Estimate customer account balances using demographic and campaign information.
 
 ---
 
-## Track 2 — Predicting Term Deposit Subscription
+## Track 2: Predicting Term Deposit Subscription
 
 **Objective**
 
@@ -102,7 +102,7 @@ Predict whether a customer is likely to subscribe to a term deposit.
 ## Regression Analysis: Customer Account Balance
 
 **1. Customer Financial Value Increases Non-Linearly with Age**
-- Generalized Additive Models (GAMs) revealed that account balances increase non-linearly with age. Traditional linear models underestimate financial value among older customers, making age-based segmentation a more effective strategy.
+- Generalized Additive Models revealed that account balances increase non-linearly with age. Traditional linear models underestimate financial value among older customers, making age-based segmentation a more effective strategy.
 
 **2. Customer Engagement Reflects Financial Value**
 - Longer customer interactions were associated with higher account balances, suggesting that engagement quality is an indicator of customer financial value.
