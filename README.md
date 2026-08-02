@@ -320,10 +320,10 @@ The dataset contains information collected from direct marketing campaigns condu
 <summary> Model Visualizations (Click to Expand)</summary>
 
 The figures below summarize the key relationships identified during exploratory analysis, model development, and performance evaluation.
-# Model Visualizations
+## Model Visualizations
 
 
-### Correlation Heatmap
+#### Correlation Heatmap
 
 ![Correlation Heatmap](figures/correlation_heatmap.png)
 
@@ -332,7 +332,7 @@ Shows the strength of relationships among key numerical variables and highlights
 
 ---
 
-### Subscription Distribution
+#### Subscription Distribution
 
 ![Subscription Distribution](figures/03_subscription_distribution.png)
 
@@ -340,7 +340,7 @@ Illustrates the class imbalance between customers who subscribed and those who d
 
 ---
 
-### Random Forest Variable Importance
+#### Random Forest Variable Importance
 
 ![Variable Importance — Random Forest](figures/05_vip_randomforest.png)
 
@@ -348,7 +348,7 @@ Identifies the variables contributing most to subscription prediction, with call
 
 ---
 
-### Gradient Boosting Variable Importance
+#### Gradient Boosting Variable Importance
 
 ![Variable Importance — Gradient Boosted Model](figures/08_vip_gradientboosted.png)
 
@@ -356,7 +356,7 @@ Confirms the importance of customer engagement and campaign-related variables wh
 
 ---
 
-### ROC Curve
+#### ROC Curve
 
 ![ROC Curves — All Classification Models](figures/07_roc_curves.png)
 
@@ -368,13 +368,13 @@ Demonstrates strong model discrimination between subscribers and non-subscribers
 
 <summary> Regression Analysis Details (Click to Expand)</summary>
 
-### Models Evaluated
+#### Models Evaluated
 
 - Multiple Linear Regression
 - Lasso Regression
 - Generalized Additive Model (GAM)
 
-### Model Performance
+#### Model Performance
 
 | Model | RMSE | R² | MAE | Key Strength |
 |-------|-----:|---:|----:|--------------|
@@ -383,7 +383,7 @@ Demonstrates strong model discrimination between subscribers and non-subscribers
 | Generalized Additive Model (GAM) ⭐ | **2,998.206** | **0.015** | **1,499.378** | Captures non-linear relationships between predictors and account balance |
 
 
-### Key Takeaway
+#### Key Takeaway
 
 The Generalized Additive Model produced the strongest regression performance by capturing non-linear relationships between customer age and account balance.
 
