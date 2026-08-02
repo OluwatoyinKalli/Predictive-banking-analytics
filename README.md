@@ -10,7 +10,7 @@
 
 ---
 
-# Executive Summary
+## Executive Summary
 
 This project demonstrates the development of a predictive analytics solution that helps financial institutions identify customers most likely to subscribe to term deposits while also understanding the factors influencing customer account balances.
 
@@ -18,7 +18,7 @@ Using statistical modeling and machine learning techniques, the project provides
 
 ---
 
-# Business Problem
+## Business Problem
 
 Banks invest heavily in direct marketing campaigns, yet broad customer targeting often results in:
 
@@ -34,7 +34,7 @@ This project addresses two critical business questions:
 
 ---
 
-# Project Highlights
+## Project Highlights
 
 - Dataset: 45,211 banking customers
 - 16 demographic and campaign variables
@@ -45,11 +45,11 @@ This project addresses two critical business questions:
 
 ---
 
-# Solution Overview
+## Solution Overview
 
 The solution consists of two complementary analytical tracks.
 
-## Track 1: Predicting Customer Account Balance
+### Track 1: Predicting Customer Account Balance
 
 **Objective**
 
@@ -67,7 +67,7 @@ Estimate customer account balances using demographic and campaign information.
 
 ---
 
-## Track 2: Predicting Term Deposit Subscription
+### Track 2: Predicting Term Deposit Subscription
 
 **Objective**
 
@@ -87,7 +87,7 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 ---
 
-# Key Results
+## Key Results
 
 - Achieved approximately 92% classification accuracy.
 - Contact duration was the strongest predictor of subscription.
@@ -97,9 +97,9 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 ---
 
-#  Business Insights
+##  Business Insights
 
-## Regression Analysis: Customer Account Balance
+### Regression Analysis: Customer Account Balance
 
 **1. Customer Financial Value Increases Non-Linearly with Age**
 - Generalized Additive Models revealed that account balances increase non-linearly with age. Traditional linear models underestimate financial value among older customers, making age-based segmentation a more effective strategy.
@@ -110,7 +110,7 @@ Predict whether a customer is likely to subscribe to a term deposit.
 **3. Additional Financial Variables Are Needed**
 - Although GAM outperformed the other regression models, all regression models produced relatively low explanatory power (R²). This indicates that variables such as income, credit score, savings behavior, and transaction history would significantly improve balance prediction.
 
-## Classification Analysis: Term Deposit Subscription
+### Classification Analysis: Term Deposit Subscription
 
 **4. Customer Engagement Drives Subscription Success**
 - Call duration was the strongest predictor of term deposit subscription. Customers who remained engaged in longer conversations were significantly more likely to subscribe.
@@ -126,9 +126,9 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 ---
 
-#  Strategic Business Recommendations
+##  Strategic Business Recommendations
 
-## Recommendations from the Regression Analysis
+### Recommendations from the Regression Analysis
 
 **1. Develop an Age-Based Customer Segmentation Strategy**
 - Replace traditional demographic segmentation with age-based segments that reflect the non-linear relationship between age and account balance identified by the Generalized Additive Model (GAM).
@@ -148,7 +148,7 @@ Predict whether a customer is likely to subscribe to a term deposit.
 *Expected Impact*
 - More effective customer profiling and improved prioritization of relationship management efforts.
 
-## Recommendations from the Classification Analysis
+### Recommendations from the Classification Analysis
 
 **4. Prioritize Call Quality Over Call Volume**
 - Train campaign teams to focus on meaningful, high-quality customer conversations rather than maximizing the number of outbound calls.
@@ -177,7 +177,7 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 ---
 
-# Business Impact
+## Business Impact
 
 | Recommendation | Expected Business Impact |
 |----------------|--------------------------|
@@ -190,9 +190,9 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 ---
 
-# 🛠️ Technical Skills Demonstrated
+## Technical Skills Demonstrated
 
-##  Machine Learning
+###  Machine Learning
 
 ![Regression Modeling](https://img.shields.io/badge/Regression_Modeling-blue?style=flat)
 ![Classification Modeling](https://img.shields.io/badge/Classification_Modeling-green?style=flat)
@@ -202,7 +202,7 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 ---
 
-##  Analytics
+###  Analytics
 
 ![Predictive Analytics](https://img.shields.io/badge/Predictive_Analytics-blue?style=flat)
 ![Statistical Analysis](https://img.shields.io/badge/Statistical_Analysis-green?style=flat)
@@ -212,13 +212,13 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 ---
 
-##  Programming
+###  Programming
 
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 
 ---
 
-##  Machine Learning Libraries
+###  Machine Learning Libraries
 
 ![tidymodels](https://img.shields.io/badge/tidymodels-1E90FF?style=flat)
 ![ranger](https://img.shields.io/badge/ranger-32CD32?style=flat)
@@ -228,7 +228,7 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 ---
 
-##  Data Preparation
+###  Data Preparation
 
 ![tidyverse](https://img.shields.io/badge/tidyverse-1E90FF?style=flat)
 ![dplyr](https://img.shields.io/badge/dplyr-32CD32?style=flat)
@@ -237,7 +237,7 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 ---
 
-##  Visualization
+###  Visualization
 
 ![ggplot2](https://img.shields.io/badge/ggplot2-1E90FF?style=flat)
 ![GGally](https://img.shields.io/badge/GGally-32CD32?style=flat)
@@ -246,33 +246,34 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 ---
 
-##  Reporting
+###  Reporting
 
 ![Quarto](https://img.shields.io/badge/Quarto-4A90D9?style=flat)
 
 ---
 
-# Limitations
+## Limitations
 
 All three regression models produced very low R² values, suggesting the dataset lacks key financial predictors necessary for accurate balance prediction
 The dataset originates from a Portuguese bank (2008–2013) and may not generalize to other markets or time periods, particularly given the 2008 financial crisis context
 The large "unknown" category in poutcome and job may introduce noise into classification predictions
-Class imbalance in y required SMOTE intervention — results may differ on naturally balanced or differently distributed datasets
+Class imbalance in y required SMOTE intervention; results may differ on naturally balanced or differently distributed datasets
 
 ---
 
-# Conclusion
+## Conclusion
 
 This project successfully addressed two core business challenges through a dual analytical framework. For account balance prediction, GAMs achieved the best performance (RMSE: 2,998.206, R²: 0.015), confirming non-linear relationships between predictors and balance with age emerging as the dominant factor. For term deposit subscription classification, both Tuned Random Forest and Tuned Gradient Boosted Models achieved 92% accuracy with an AUC near 1.0, identifying contact duration and campaign frequency as the strongest drivers of subscription likelihood.
 
 While the regression models revealed meaningful patterns, the low R² values suggest that additional financial variables would be needed to build a production-ready balance predictor. The classification models, however, demonstrated strong real-world applicability, providing the bank with a reliable tool to identify and prioritize likely subscribers before campaign outreach begins.
 
-# 📎 Technical Appendix
+##  Technical Appendix
+
 <details>
 
 <summary>📊 Dataset Description (Click to Expand)</summary>
 
-## 📂 Data Source
+### 📂 Data Source
 
 **Dataset:** Bank Marketing Dataset
 
