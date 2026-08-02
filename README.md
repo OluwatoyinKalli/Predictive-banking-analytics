@@ -271,9 +271,9 @@ While the regression models revealed meaningful patterns, the low R² values sug
 
 <details>
 
-<summary>📊 Dataset Description (Click to Expand)</summary>
+<summary> Dataset Description (Click to Expand)</summary>
 
-### 📂 Data Source
+###  Data Source
 
 **Dataset:** Bank Marketing Dataset
 
@@ -317,7 +317,7 @@ The dataset contains information collected from direct marketing campaigns condu
 
 <details>
 
-<summary>🖼️ Model Visualizations (Click to Expand)</summary>
+<summary> Model Visualizations (Click to Expand)</summary>
 
 The figures below summarize the key relationships identified during exploratory analysis, model development, and performance evaluation.
 # Model Visualizations
@@ -366,7 +366,7 @@ Demonstrates strong model discrimination between subscribers and non-subscribers
   
 <details>
 
-<summary>📈 Regression Analysis Details (Click to Expand)</summary>
+<summary> Regression Analysis Details (Click to Expand)</summary>
 
 ### Models Evaluated
 
@@ -391,7 +391,7 @@ The Generalized Additive Model produced the strongest regression performance by 
 
 <details>
 
-<summary>🤖 Classification Analysis Details (Click to Expand)</summary>
+<summary> Classification Analysis Details (Click to Expand)</summary>
 
 ### Models Evaluated
 
