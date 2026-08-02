@@ -192,7 +192,7 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 # 🛠️ Technical Skills Demonstrated
 
-## 🤖 Machine Learning
+##  Machine Learning
 
 ![Regression Modeling](https://img.shields.io/badge/Regression_Modeling-blue?style=flat)
 ![Classification Modeling](https://img.shields.io/badge/Classification_Modeling-green?style=flat)
@@ -202,7 +202,7 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 ---
 
-## 📊 Analytics
+##  Analytics
 
 ![Predictive Analytics](https://img.shields.io/badge/Predictive_Analytics-blue?style=flat)
 ![Statistical Analysis](https://img.shields.io/badge/Statistical_Analysis-green?style=flat)
@@ -212,13 +212,13 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 ---
 
-## 💻 Programming
+##  Programming
 
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 
 ---
 
-## 🧠 Machine Learning Libraries
+##  Machine Learning Libraries
 
 ![tidymodels](https://img.shields.io/badge/tidymodels-1E90FF?style=flat)
 ![ranger](https://img.shields.io/badge/ranger-32CD32?style=flat)
@@ -228,7 +228,7 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 ---
 
-## 🧹 Data Preparation
+##  Data Preparation
 
 ![tidyverse](https://img.shields.io/badge/tidyverse-1E90FF?style=flat)
 ![dplyr](https://img.shields.io/badge/dplyr-32CD32?style=flat)
@@ -237,7 +237,7 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 ---
 
-## 📈 Visualization
+##  Visualization
 
 ![ggplot2](https://img.shields.io/badge/ggplot2-1E90FF?style=flat)
 ![GGally](https://img.shields.io/badge/GGally-32CD32?style=flat)
@@ -246,10 +246,9 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 ---
 
-## 📝 Reporting
+##  Reporting
 
 ![Quarto](https://img.shields.io/badge/Quarto-4A90D9?style=flat)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 
 ---
 
@@ -431,38 +430,5 @@ Random Forest and Gradient Boosted Trees achieved the strongest predictive perfo
 Compares regression and classification models to support selection of the best-performing approaches for deployment.
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##  Tools & Technologies
-
-| Category | Tools / Technologies |
-|----------|----------------------|
-| **Programming Language** | R |
-| **Modeling Framework** | tidymodels, parsnip, workflows, tune, rsample, yardstick |
-| **Regression Models** | Multiple Linear Regression (`lm`), Lasso Regression (`glmnet`), Generalized Additive Models (`mgcv`, `mgcViz`) |
-| **Classification Models** | Logistic Regression (`glm`), Random Forest (`ranger`), Gradient Boosting (`xgboost`) |
-| **Class Imbalance Handling** | `themis` (SMOTE) |
-| **Data Wrangling** | `dplyr`, `tidyverse`, `janitor`, `recipes`, `skimr` |
-| **Data Visualization** | `ggplot2`, `GGally`, `ggcorrplot`, `vip`, `gridExtra` |
-| **Reporting & Documentation** | Quarto Dashboard, GitHub README |
-
-
 
 
