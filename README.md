@@ -179,7 +179,6 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 # Business Impact
 
-
 | Recommendation | Expected Business Impact |
 |----------------|--------------------------|
 | Deploy the classification model to pre-score campaign lists | Improves marketing efficiency by identifying high-probability subscribers before campaign launch, increasing conversion rates while reducing wasted outreach. |
@@ -191,56 +190,66 @@ Predict whether a customer is likely to subscribe to a term deposit.
 
 ---
 
-# Technical Skills Demonstrated
+# 🛠️ Technical Skills Demonstrated
 
-## Machine Learning
+## 🤖 Machine Learning
 
-- Regression Modeling
-- Classification Modeling
-- Feature Engineering
-- Model Evaluation
-- Hyperparameter Tuning
+![Regression Modeling](https://img.shields.io/badge/Regression_Modeling-blue?style=flat)
+![Classification Modeling](https://img.shields.io/badge/Classification_Modeling-green?style=flat)
+![Feature Engineering](https://img.shields.io/badge/Feature_Engineering-orange?style=flat)
+![Model Evaluation](https://img.shields.io/badge/Model_Evaluation-red?style=flat)
+![Hyperparameter Tuning](https://img.shields.io/badge/Hyperparameter_Tuning-purple?style=flat)
 
-## Analytics
+---
 
-- Predictive Analytics
-- Statistical Analysis
-- Customer Segmentation
-- Business Intelligence
-- Data Storytelling
+## 📊 Analytics
 
-## Tools & Technologies
+![Predictive Analytics](https://img.shields.io/badge/Predictive_Analytics-blue?style=flat)
+![Statistical Analysis](https://img.shields.io/badge/Statistical_Analysis-green?style=flat)
+![Customer Segmentation](https://img.shields.io/badge/Customer_Segmentation-orange?style=flat)
+![Business Intelligence](https://img.shields.io/badge/Business_Intelligence-red?style=flat)
+![Data Storytelling](https://img.shields.io/badge/Data_Storytelling-purple?style=flat)
 
-### Programming
+---
 
-- R
+## 💻 Programming
 
-### Machine Learning
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 
-- tidymodels
-- ranger
-- xgboost
-- glmnet
-- mgcv
+---
 
-### Data Preparation
+## 🧠 Machine Learning Libraries
 
-- tidyverse
-- dplyr
-- recipes
-- janitor
+![tidymodels](https://img.shields.io/badge/tidymodels-1E90FF?style=flat)
+![ranger](https://img.shields.io/badge/ranger-32CD32?style=flat)
+![xgboost](https://img.shields.io/badge/xgboost-FF8C00?style=flat)
+![glmnet](https://img.shields.io/badge/glmnet-8A2BE2?style=flat)
+![mgcv](https://img.shields.io/badge/mgcv-DC143C?style=flat)
 
-### Visualization
+---
 
-- ggplot2
-- GGally
-- vip
-- ggcorrplot
+## 🧹 Data Preparation
 
-### Reporting
+![tidyverse](https://img.shields.io/badge/tidyverse-1E90FF?style=flat)
+![dplyr](https://img.shields.io/badge/dplyr-32CD32?style=flat)
+![recipes](https://img.shields.io/badge/recipes-FF8C00?style=flat)
+![janitor](https://img.shields.io/badge/janitor-8A2BE2?style=flat)
 
-- Quarto
-- GitHub
+---
+
+## 📈 Visualization
+
+![ggplot2](https://img.shields.io/badge/ggplot2-1E90FF?style=flat)
+![GGally](https://img.shields.io/badge/GGally-32CD32?style=flat)
+![vip](https://img.shields.io/badge/vip-FF8C00?style=flat)
+![ggcorrplot](https://img.shields.io/badge/ggcorrplot-8A2BE2?style=flat)
+
+---
+
+## 📝 Reporting
+
+![Quarto](https://img.shields.io/badge/Quarto-4A90D9?style=flat)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 
 ---
 
@@ -255,9 +264,9 @@ Class imbalance in y required SMOTE intervention — results may differ on natur
 
 # Conclusion
 
-This project successfully addressed two core business challenges through a dual analytical framework. For account balance prediction, GAMs achieved the best performance (RMSE: 2,998.206, R²: 0.015), confirming non-linear relationships between predictors and balance — with age emerging as the dominant factor. For term deposit subscription classification, both Tuned Random Forest and Tuned Gradient Boosted Models achieved 92% accuracy with an AUC near 1.0, identifying contact duration and campaign frequency as the strongest drivers of subscription likelihood.
+This project successfully addressed two core business challenges through a dual analytical framework. For account balance prediction, GAMs achieved the best performance (RMSE: 2,998.206, R²: 0.015), confirming non-linear relationships between predictors and balance with age emerging as the dominant factor. For term deposit subscription classification, both Tuned Random Forest and Tuned Gradient Boosted Models achieved 92% accuracy with an AUC near 1.0, identifying contact duration and campaign frequency as the strongest drivers of subscription likelihood.
 
-While the regression models revealed meaningful patterns, the low R² values suggest that additional financial variables would be needed to build a production-ready balance predictor. The classification models, however, demonstrated strong real-world applicability — providing the bank with a reliable tool to identify and prioritize likely subscribers before campaign outreach begins.
+While the regression models revealed meaningful patterns, the low R² values suggest that additional financial variables would be needed to build a production-ready balance predictor. The classification models, however, demonstrated strong real-world applicability, providing the bank with a reliable tool to identify and prioritize likely subscribers before campaign outreach begins.
 
 # 📎 Technical Appendix
 <details>
