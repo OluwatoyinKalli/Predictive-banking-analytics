@@ -417,6 +417,7 @@ Random Forest and Gradient Boosted Trees achieved the strongest predictive perfo
 
 <details>
 
+<summary> Model Comparison (Click to Expand)</summary>
 ### Model Comparison
 
 | Model | Best Use |
